@@ -21,21 +21,6 @@ Data Science: Pandas, NumPy, SciPy
 Visualizations: Plotly (Interactive Charts)
 Security: Self-signed SSL support for local development
 
-
-📋 Prerequisites
-Python 3.9+
-pip (Python package manager)
-⚙️ Quick Start
-Clone and Install:
-
-git clone https://github.com/RaidenX2905/AI-Powered-Pharmaceutical-Inventory-Management-System.git
-cd AI-Powered-Pharmaceutical-Inventory-Management-System
-pip install -r requirements.txt
-Launch the System:
-
-streamlit run app.py
-The application will be accessible at http://localhost:8501.
-
 📂 Project Structure
 app.py: Main application controller and UI layout.
 database.py: Core database logic and SQL transaction management.
@@ -44,7 +29,5 @@ deep_learning_forecasting.py: LSTM Neural Network architecture.
 inventory_forecasting.py: Regression and Random Forest models.
 advanced_analytics.py: Data-driven insights for wastage and costs.
 utils.py: Formatting and calculation utilities.
-🌐 Deployment Note
-This version is Production-Ready for platforms like Streamlit Community Cloud. It uses deferred loading to stay within the 1GB RAM limit of free tiers without compromising on AI functionality.
 
 Developed with ❤️ for Pharmaceutical Excellence.
